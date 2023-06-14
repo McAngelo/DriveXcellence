@@ -1,0 +1,18 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.login-card {
+  width: 300px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.side-image {
+  flex: 0.2;
+  background-size: cover;
+  background-position: center;
+}
