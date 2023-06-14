@@ -1,0 +1,17 @@
+.sign-up-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.sign-up-card {
+  width: 400px;
+  margin-right: 40px;
+}
+
+.side-image {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+}
