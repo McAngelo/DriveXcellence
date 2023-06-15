@@ -15,7 +15,7 @@
           <a style="size: 10px; color: grey;" [routerLink]="['/auth/forgotten-password']" > Forgot password ?</a>
         </div>
         <mat-card-actions>
-          <button mat-raised-button type="submit" color="primary">Login</button>
+          <button mat-raised-button type="button" [routerLink]="['/dashboard']" color="primary">Login</button>
         </mat-card-actions>
         <div style="size: 12px; margin-top: 25px;">
           Don't have an account? <br /><a style="size: 10px; color: grey;" [routerLink]="['/auth/register']" >Create One</a>
