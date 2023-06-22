@@ -66,8 +66,9 @@
         <mat-sidenav-content class="page-wrapper">
 
                 <div class="page-content">
-
-                        <router-outlet><app-spinner></app-spinner></router-outlet>
+                  <app-ng7-mat-breadcrumb (config)="configObject"></app-ng7-mat-breadcrumb>
+                  <br />
+                  <router-outlet><app-spinner></app-spinner></router-outlet>
 
                 </div>
 

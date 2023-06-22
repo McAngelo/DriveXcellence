@@ -53,10 +53,26 @@ export interface Menu {
 ]; */
 
 const MENUITEMS = [
+  /* Student portal */
   { state: 'dashboard', name: 'Dashboard', type: 'link', icon: 'av_timer' },
   { state: 'lessons', name: 'Lessons', type: 'link', icon: 'view_list' },
   { state: 'videos', name: 'Videos', type: 'link', icon: 'voicemail' },
   { state: 'tests', name: 'Tests', type: 'link', icon: 'assignment_turned_in' },
+  /* Super Admin */
+  { state: 'tests', name: 'Courses', type: 'link', icon: 'assignment_turned_in' },
+  { state: 'tests', name: 'Schools', type: 'link', icon: 'assignment_turned_in' },
+  { state: 'tests', name: 'Settings', type: 'link', icon: 'assignment_turned_in' },
+  /* Registered School */
+  { state: 'tests', name: 'Fleet', type: 'link', icon: 'assignment_turned_in' },
+  { state: 'tests', name: 'Branches', type: 'link', icon: 'assignment_turned_in' },
+  { state: 'tests', name: 'Invoices', type: 'link', icon: 'assignment_turned_in' },
+  { state: 'tests', name: 'Communications', type: 'link', icon: 'assignment_turned_in' },
+  { state: 'tests', name: 'Staff', type: 'link', icon: 'assignment_turned_in' },
+  { state: 'tests', name: 'Financials', type: 'link', icon: 'assignment_turned_in' },
+  { state: 'tests', name: 'Scheduling', type: 'link', icon: 'assignment_turned_in' },
+  { state: 'tests', name: 'Notifications', type: 'link', icon: 'assignment_turned_in' },
+  { state: 'tests', name: 'Students', type: 'link', icon: 'assignment_turned_in' },
+  { state: 'tests', name: 'Instructors', type: 'link', icon: 'assignment_turned_in' },
 ];
 
 

@@ -1,6 +1,6 @@
 
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { NgModule,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
@@ -13,6 +13,7 @@ import { FullComponent } from './layouts/full/full.component';
 import { AppHeaderComponent } from './layouts/full/header/header.component';
 import { AppSidebarComponent } from './layouts/full/sidebar/sidebar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { Ng7MatBreadcrumbModule } from "ng7-mat-breadcrumb";
 import { DemoMaterialModule } from './modules/demo-material.module';
 
 import { SharedModule } from './modules/shared/shared.module';
@@ -38,7 +39,8 @@ import { ErrorLayoutComponent } from './layouts/error-layout/error-layout.compon
     FlexLayoutModule,
     HttpClientModule,
     SharedModule,
-    AppRoutingModule
+    AppRoutingModule,
+    Ng7MatBreadcrumbModule
   ],
   providers: [
     {
@@ -46,6 +48,7 @@ import { ErrorLayoutComponent } from './layouts/error-layout/error-layout.compon
       useClass: PathLocationStrategy
     }
   ],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
