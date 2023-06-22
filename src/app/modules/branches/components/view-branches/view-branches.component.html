@@ -1,0 +1,16 @@
+<div fxLayout="row wrap">
+  <mat-card>
+    <mat-card-content>
+      <mat-card-title>Multiline lists</mat-card-title>
+      <mat-card-subtitle>A selection list provides an interface for selecting values, where each list item is an
+        option.</mat-card-subtitle>
+      <mat-list>
+        <mat-list-item *ngFor="let message of messages">
+          <h3 matLine>{{message.from}}</h3>
+          <p matLine class="text-muted">{{message.subject}}</p>
+          <p matLine class="text-muted">{{message.content}}</p>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+  </mat-card>
+</div>

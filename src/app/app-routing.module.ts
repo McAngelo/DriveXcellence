@@ -34,6 +34,58 @@ const routes: Routes = [
       {
         path: 'tests',
         loadChildren: () => import('./modules').then(m => m.TestsModule)
+      },
+      {
+        path: 'courses',
+        loadChildren: () => import('./modules').then(m => m.CoursesModule)
+      },
+      {
+        path: 'schools',
+        loadChildren: () => import('./modules').then(m => m.SchoolsModule)
+      },
+      {
+        path: 'settings',
+        loadChildren: () => import('./modules').then(m => m.SettingsModule)
+      },
+      {
+        path: 'fleet',
+        loadChildren: () => import('./modules').then(m => m.FleetModule)
+      },
+      {
+        path: 'branches',
+        loadChildren: () => import('./modules').then(m => m.BranchesModule)
+      },
+      {
+        path: 'invoices',
+        loadChildren: () => import('./modules').then(m => m.InvoicesModule)
+      },
+      {
+        path: 'communications',
+        loadChildren: () => import('./modules').then(m => m.CommunicationsModule)
+      },
+      {
+        path: 'employees',
+        loadChildren: () => import('./modules').then(m => m.EmployeesModule)
+      },
+      {
+        path: 'financials',
+        loadChildren: () => import('./modules').then(m => m.FinancialsModule)
+      },
+      {
+        path: 'scheduling',
+        loadChildren: () => import('./modules').then(m => m.SchedulingModule)
+      },
+      {
+        path: 'notifications',
+        loadChildren: () => import('./modules').then(m => m.NotificationsModule)
+      },
+      {
+        path: 'students',
+        loadChildren: () => import('./modules').then(m => m.StudentsModule)
+      },
+      {
+        path: 'instructors',
+        loadChildren: () => import('./modules').then(m => m.InstructorsModule)
       }
     ]
   },

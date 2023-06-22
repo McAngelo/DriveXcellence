@@ -59,20 +59,20 @@ const MENUITEMS = [
   { state: 'videos', name: 'Videos', type: 'link', icon: 'voicemail' },
   { state: 'tests', name: 'Tests', type: 'link', icon: 'assignment_turned_in' },
   /* Super Admin */
-  { state: 'courses', name: 'Courses', type: 'link', icon: 'assignment_turned_in' },
-  { state: 'schools', name: 'Schools', type: 'link', icon: 'assignment_turned_in' },
-  { state: 'settings', name: 'Settings', type: 'link', icon: 'assignment_turned_in' },
+  { state: 'courses', name: 'Courses', type: 'link', icon: 'auto_stories' },
+  { state: 'schools', name: 'Schools', type: 'link', icon: 'emoji_transportation' },
+  { state: 'settings', name: 'Settings', type: 'link', icon: 'settings' },
   /* Registered School */
-  { state: 'fleet', name: 'Fleet', type: 'link', icon: 'assignment_turned_in' },
-  { state: 'branches', name: 'Branches', type: 'link', icon: 'assignment_turned_in' },
-  { state: 'invoices', name: 'Invoices', type: 'link', icon: 'assignment_turned_in' },
-  { state: 'communnications', name: 'Communications', type: 'link', icon: 'assignment_turned_in' },
-  { state: 'employees', name: 'Employees', type: 'link', icon: 'assignment_turned_in' },
-  { state: 'financials', name: 'Financials', type: 'link', icon: 'assignment_turned_in' },
-  { state: 'scheduling', name: 'Scheduling', type: 'link', icon: 'assignment_turned_in' },
-  { state: 'notifications', name: 'Notifications', type: 'link', icon: 'assignment_turned_in' },
-  { state: 'students', name: 'Students', type: 'link', icon: 'assignment_turned_in' },
-  { state: 'instructors', name: 'Instructors', type: 'link', icon: 'assignment_turned_in' },
+  { state: 'fleet', name: 'Fleet', type: 'link', icon: 'commute' },
+  { state: 'branches', name: 'Branches', type: 'link', icon: 'mediation' },
+  { state: 'invoices', name: 'Invoices', type: 'link', icon: 'sticky_note_2' },
+  { state: 'communications', name: 'Communications', type: 'link', icon: 'connect_without_contact' },
+  { state: 'employees', name: 'Employees', type: 'link', icon: 'badge' },
+  { state: 'financials', name: 'Financials', type: 'link', icon: 'payments' },
+  { state: 'scheduling', name: 'Scheduling', type: 'link', icon: 'free_cancellation' },
+  { state: 'notifications', name: 'Notifications', type: 'link', icon: 'notifications_active' },
+  { state: 'students', name: 'Students', type: 'link', icon: 'group' },
+  { state: 'instructors', name: 'Instructors', type: 'link', icon: 'settings_accessibility' },
 ];
 
 
